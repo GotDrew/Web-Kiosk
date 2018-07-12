@@ -4,6 +4,8 @@
 iOS app that looks for a URL in a MDM App Configuration then displays the website.
 This is a bit of a jumble of found and repurposed code as its my first iOS app.
 
+We only need the ViewController and a Property List, there are no changes to AppDelegate.
+
 ### How it works
 It will check for a package config/plist built into the app, then an MDM config (see bellow) and get the URL from whichever it finds. 
 I've been setting the plist URL to the company site and the MDM URL to the intended site, that way if the MDM fails for some reason the device still displays something appropriate.
